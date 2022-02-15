@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Hello world",
+      "name": "Hello",
       "setup": "",
       "run": "python hello.py",
       "input": "",
