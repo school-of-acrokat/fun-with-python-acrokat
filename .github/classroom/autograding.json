@@ -2,20 +2,20 @@
   "tests": [
     {
       "name": "Hello world",
-      "setup": "",
-      "run": "python -c 'import hello; print hello.hello()'",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_hello.py'",
       "input": "",
-      "output": "Hello world",
+      "output": "",
       "comparison": "included",
       "timeout": 10,
       "points": 10
     },
     {
       "name": "Cats or dogs",
-      "setup": "",
-      "run": "python hello.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_catsordogs.py",
       "input": "",
-      "output": "Cats and dogs",
+      "output": "",
       "comparison": "included",
       "timeout": 10,
       "points": 10
