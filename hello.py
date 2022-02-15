@@ -1,8 +1,8 @@
 def hello_world():
-    return("Hello world")
+    return("hello world")
     
 def cats_or_dogs():
-    return("Cats and dogs")
+    return("cats AND dogs")
 
 if __name__ == '__main__':
     hello_world()
