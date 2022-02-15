@@ -3,7 +3,7 @@
     {
       "name": "Hello world",
       "setup": "",
-      "run": "python hello.py",
+      "run": "python -c 'import hello; print hello.hello()'",
       "input": "",
       "output": "Hello world",
       "comparison": "included",
