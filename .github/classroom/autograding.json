@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "Hello",
+      "name": "Hello world",
       "setup": "",
       "run": "python hello.py",
       "input": "",
-      "output": "hello world",
+      "output": "Hello world",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python hello.py",
       "input": "",
-      "output": "cats AND dogs",
+      "output": "Cats and dogs",
       "comparison": "included",
       "timeout": 10,
       "points": 10
